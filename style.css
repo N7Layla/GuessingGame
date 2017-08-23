@@ -1,0 +1,130 @@
+      body {
+        background: #d9a7c7; 
+        background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+        background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+      }
+      .center {
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      img {
+        display: inline;
+        width: 200px;
+      }
+      button {
+        background-color: #f0f0f0;
+        padding: 5px;
+        border: 1px solid #000000;
+      }
+      #main {
+        position: relative;
+      }
+      #input-parent {
+        margin: 5% auto 50px;
+        position: relative;
+      }
+      .main-input {
+        width: 200px;
+        height: 200px;
+        padding: 40px;
+        font-size: 50px;
+        border-radius: 50%;
+      }
+      #submit {
+        position: absolute;
+        top: 130px;
+        right: 450px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        z-index: 100;
+      }
+      #submit:focus {
+        outline: 0 none;
+      }
+      #hint {
+        position: absolute;
+        top: 130px;
+        right: 610px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        z-index: 100;
+      }
+      #reset {
+        height: 60px;
+        width: 200px;
+        margin-top: 40px;
+      }
+      input {
+        background-color: #ffffff;
+        border: 1px solid #bc7aa4;
+        padding: 5px;
+      }
+      input:focus {
+        border-color: rgba(126, 239, 104, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+        outline: 0 none;
+        transition: ease-in-out, width .35s ease-in-out;
+      }
+      .guess {
+        display: inline-block;
+        padding: 30px;
+        background-color: #f0f0f0;
+        border-radius: 10% 50% 10% 50%;
+        margin: auto 10px;
+        height: 60px;
+        width: 60px;
+        border: 1px solid #f0f0f0;
+        box-shadow: 2px 2px 2px pink;
+        vertical-align: middle;
+      }
+      .btn{
+        margin: 10px;
+        box-shadow: 1px 1px 5px #888888;
+      }
+      .btn:hover, .btn:active, .btn:focus {
+        outline: 0 none;
+        transition: ease-in-out, width .65s ease-in-out;
+      }
+      .btn-warning {
+        background-color: #f0f0f0 !important;
+        color: #000000 !important;
+      }
+      .btn-danger {
+        background-color: #bc7aa4 !important;
+        color: #000000 !important;
+      }
+      .btn-success {
+        background-color:;
+      }
+      #footer {
+          width: 100%;
+          border-top: solid 2px black;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+      .inline {
+        display: inline-block;
+      }
+      .name {
+        width: 50%;
+        height: 100px;
+        display: inline-block;
+      }
+      h4 {
+        
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-style: italic;
+      }
+      .logo {
+        height: 100px;
+        width: 200px;
+        display: inline;
+      }
+
